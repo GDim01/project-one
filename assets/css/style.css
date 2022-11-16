@@ -12,16 +12,20 @@ body {
     color: #3a3a3a;
 }
 
+header {
+    background-color: rgb(118, 23, 23);
+}
+
 h1, h2 {
     font-family: "Archivo Black", sans-serif;
-    letter-spacing: 4px;
-    color: #252525;
 }
 
 #logo {
     float: left;
-    font-size: 300%;
-    margin-right: 10px;
+    font-size: 400%;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(118, 23, 23);
 }
 
 #logo, #menu {
@@ -29,11 +33,22 @@ h1, h2 {
 }
 
 #menu li {
+    display: inline;
     list-style-type: none;
     float: left;
-    margin-left: 20px;
+    font-size: 150%;
+    background-color: red;
+    border-left: solid 3px white;
 }
 
 #menu a {
     text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    padding: 10px 50px;
+}
+
+#menu .menu-brown {
+    background-color: rgb(118, 23, 23);
 }
