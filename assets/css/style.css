@@ -310,10 +310,38 @@ h1, h2 {
 
 #hiring {
     min-height: 40vh;
+    display: block;
+    align-items: flex-start;
+    column-count: 3;
 }
 
+.job-opportunity {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
+#hiring h3 {
+    color: black;
+    font-family: "Archvio Black", sans-serif;
+    text-align: center;
+    font-size: 150%;
+    display: block;
+    height: 8%;
+    width: 100%;
+    float: left;
+}
 
+#hiring p {
+    color: black;
+    font-family: "Hind", sans-serif;
+    text-align: justify;
+    font-size: 120%;
+    height: 92%;
+    width: 100%;
+    display: block;
+    float: left;
+}
 
 
 
