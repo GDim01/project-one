@@ -17,6 +17,7 @@ header {
     background-size: cover;
 }
 
+
 body {
     font-family: "Hind", sans-serif;
     font-weight: 400;
@@ -322,7 +323,7 @@ h1, h2 {
 
 #hiring h3 {
     color: black;
-    font-family: "Archvio Black", sans-serif;
+    font-family: "Archivo Black", sans-serif;
     text-align: center;
     font-size: 150%;
     display: block;
