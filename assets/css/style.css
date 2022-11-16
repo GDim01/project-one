@@ -145,14 +145,6 @@ h1, h2 {
     height: 40px;
 }
 
-.left-reason-content p {
-    display: inline-block;
-    padding: 0 2%;
-    width: 63%;
-    height: 150px;
-    overflow: hidden;
-}
-
 .right-reason-content h3 {
     display: inline-block;
     font-size: 150%;
@@ -161,7 +153,17 @@ h1, h2 {
     height: 40px;
 }
 
-.right-reason-content p {
+#why-us .left-reason-content p {
+    font-size: 120%;
+    display: inline-block;
+    padding: 0 2%;
+    width: 63%;
+    height: 150px;
+    overflow: hidden;
+}
+
+#why-us .right-reason-content p {
+    font-size: 120%;
     display: inline-block;
     padding: 0 2%;
     width: 63%;
