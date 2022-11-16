@@ -12,10 +12,9 @@ html {
 
 /* Beginning of header styling */
 
-#header {
+header {
     background-color: red;
-    height: 95px;
-    flex: 1 0 auto;
+    background-size: cover;
 }
 
 body {
