@@ -207,6 +207,19 @@ h1, h2 {
     object-fit: fill;
 }
 
+#product-examples {
+    height: 60vh;
+}
+
+.product1 {
+    height: 20vh;
+}
+
+
+
+
+
+
 footer {
     text-align: center;
     display: flex;
