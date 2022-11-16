@@ -76,7 +76,7 @@ h1, h2 {
 /* Beginning of hero image styling */
 
 #hero-outer {
-    height: 570px;
+    height: 40vh;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -154,6 +154,7 @@ h1, h2 {
 
 .left-reason-content h3 {
     display: inline-block;
+    font-family: "Archivo Black", sans-serif;
     font-size: 150%;
     padding: 5px 2%;
     width: 63%;
@@ -162,6 +163,7 @@ h1, h2 {
 
 .right-reason-content h3 {
     display: inline-block;
+    font-family: "Archivo Black", sans-serif;
     font-size: 150%;
     padding: 5px 2%;
     width: 63%;
@@ -190,7 +192,7 @@ h1, h2 {
 
 /* Beginning of product styling */
 #product-header {
-    height: 30vh;
+    height: 40vh;
     display: flex;
     flex-direction: row;
     
@@ -250,7 +252,7 @@ h1, h2 {
     height: 10%;
     width: 61%;
     padding: 5px 2%;
-    font-size: 150%;
+    font-size: 200%;
     float: left;
 }
 
@@ -260,7 +262,7 @@ h1, h2 {
     height: 10%;
     width: 61%;
     padding: 5px 2%;
-    font-size: 150%;
+    font-size: 200%;
     float: right;
     text-align: right;
 }
@@ -271,7 +273,7 @@ h1, h2 {
     height: 20%;
     width: 61%;
     padding: 5px 2%;
-    font-size: 120%;
+    font-size: 150%;
     text-align: justify;
     float: left;
 }
@@ -282,8 +284,8 @@ h1, h2 {
     height: 20%;
     width: 61%;
     padding: 5px 2%;
-    font-size: 120%;
-    text-align: justify;
+    font-size: 150%;
+    text-align: right;
     float: right;
 }
 
@@ -348,7 +350,7 @@ h1, h2 {
 /* Beginning of contact styling */
 #contact-pic {
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     overflow: hidden;
 }
 
