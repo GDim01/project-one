@@ -107,6 +107,7 @@ h1, h2 {
     font-family: "Hind", sans-serif;
     color: black;
     flex: 1 0 auto;
+    margin-bottom: 20px;
 }
 
 #left-reason {
@@ -168,6 +169,7 @@ h1, h2 {
 
 #why-us .left-reason-content p {
     font-size: 120%;
+    text-align: justify;
     display: inline-block;
     padding: 0 2%;
     width: 61%;
@@ -177,6 +179,7 @@ h1, h2 {
 
 #why-us .right-reason-content p {
     font-size: 120%;
+    text-align: justify;
     display: inline-block;
     padding: 0 2%;
     width: 61%;
