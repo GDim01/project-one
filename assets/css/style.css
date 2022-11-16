@@ -208,16 +208,39 @@ h1, h2 {
 }
 
 #product-examples {
-    height: 60vh;
+    height: 90vh;
+}
+
+#product-examples div {
+    padding: 1vh;
 }
 
 .product1 {
-    height: 20vh;
+    height: 28vh;
+    width: 35vh;
+    float: left;
+    clear: both;
 }
 
+.product2 {
+    height: 28vh;
+    width: 35vh;
+    float: right;
+    clear: both;
+}
 
+.product1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    clear: both;
+}
 
-
+.product2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
 
 
 footer {
