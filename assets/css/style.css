@@ -58,6 +58,11 @@ h1, h2 {
     background-color: rgb(118, 23, 23);
 }
 
+#menu .menu-brown .active {
+    color: rgb(118, 23, 23);
+    background-color: white;
+}
+
 #hero-outer {
     height: 570px;
     width: 100%;
