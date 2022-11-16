@@ -32,7 +32,6 @@ h1, h2 {
     padding: 10px 20px;
     color: white;
     background-color: rgb(118, 23, 23);
-    border-right: solid 3px white;
 }
 
 #logo, #menu {
@@ -43,9 +42,8 @@ h1, h2 {
     display: inline;
     list-style-type: none;
     float: left;
-    font-size: 150%;
+    font-size: 170%;
     background-color: red;
-    border-right: solid 3px white;
 }
 
 #menu a {
@@ -54,6 +52,11 @@ h1, h2 {
     color: white;
     display: block;
     padding: 10px 50px;
+}
+
+#menu .active {
+    color: red;
+    background-color: white;
 }
 
 #menu .menu-brown {
