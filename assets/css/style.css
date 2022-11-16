@@ -44,7 +44,7 @@ h1, h2 {
 }
 
 #menu li {
-    display: inline;
+    display: flex;
     list-style-type: none;
     float: left;
     font-size: 170%;
@@ -86,7 +86,8 @@ h1, h2 {
     height: 670px;
     width: 100%;
     background: url(../images/pizza-oven.jpg) no-repeat center center;
-    background-size: 100%;
+    object-fit: fill;
+    background-size: cover;
 }
 
 #cover-text h2 {
