@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Hind:wght@300&family=Homemade+Apple&display=swap');
 
-html, body {
+html {
     height: 100%;
 }
 
@@ -15,6 +15,7 @@ html, body {
 #header {
     background-color: red;
     height: 95px;
+    flex: 1 0 auto;
 }
 
 body {
@@ -23,6 +24,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
+    min-height: 100%;
 }
 
 h1, h2 {
@@ -182,11 +184,14 @@ h1, h2 {
     overflow: hidden;
 }
 
-#footer {
-    background-color: rgb(118, 23, 23);
+footer {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     flex-grow: 2;
+}
+
+footer p {
+    background-color: rgb(118, 23, 23);
 }
