@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Hind:wght@300&family=Homemade+Apple&display=swap');
 
+html, body {
+    height: 100%;
+}
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
+/* Beginning of header styling */
 
 #header {
     background-color: red;
@@ -15,6 +21,8 @@ body {
     font-family: "Hind", sans-serif;
     font-weight: 400;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2 {
@@ -63,6 +71,8 @@ h1, h2 {
     background-color: white;
 }
 
+/* Beginning of hero image styling */
+
 #hero-outer {
     height: 570px;
     width: 100%;
@@ -94,6 +104,7 @@ h1, h2 {
 #why-us {
     font-family: "Hind", sans-serif;
     color: black;
+    flex: 1 0 auto;
 }
 
 #left-reason {
@@ -157,7 +168,7 @@ h1, h2 {
     font-size: 120%;
     display: inline-block;
     padding: 0 2%;
-    width: 63%;
+    width: 61%;
     height: 150px;
     overflow: hidden;
 }
@@ -166,7 +177,17 @@ h1, h2 {
     font-size: 120%;
     display: inline-block;
     padding: 0 2%;
-    width: 63%;
+    width: 61%;
     height: 150px;
     overflow: hidden;
+}
+
+
+
+footer {
+    bottom: -6vh;
+    flex-shrink: 0;
+    width: 100%;
+    background-color: rgb(118, 23, 23);
+    position: relative;
 }
