@@ -217,30 +217,62 @@ h1, h2 {
 
 .product1 {
     height: 28vh;
-    width: 35vh;
+    width: 98vh;
     float: left;
     clear: both;
 }
 
 .product2 {
     height: 28vh;
-    width: 35vh;
+    width: 98vh;
     float: right;
     clear: both;
 }
 
 .product1 img {
     height: 100%;
-    width: 100%;
+    width: 35%;
     object-fit: fill;
-    clear: both;
+    float: left;
 }
 
 .product2 img {
+    float: right;
     height: 100%;
-    width: 100%;
+    width: 35%;
     object-fit: fill;
 }
+
+.product1 h2 {
+    color: black;
+    display: block;
+    height: 10%;
+    padding: 5px 2%;
+    font-size: 150%;
+    float: left;
+}
+
+.product2 h2 {
+    color: black;
+    display: block;
+    height: 10%;
+    padding: 5px 2%;
+    font-size: 150%;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer {
