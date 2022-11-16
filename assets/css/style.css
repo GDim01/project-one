@@ -6,6 +6,11 @@
     border: none;
 }
 
+#header {
+    background-color: red;
+    height: 95px;
+}
+
 body {
     font-family: "Hind", sans-serif;
     font-weight: 400;
@@ -13,6 +18,7 @@ body {
 }
 
 header {
+    width: 100%;
     background-color: rgb(118, 23, 23);
 }
 
@@ -26,6 +32,7 @@ h1, h2 {
     padding: 10px 20px;
     color: white;
     background-color: rgb(118, 23, 23);
+    border-right: solid 3px white;
 }
 
 #logo, #menu {
@@ -38,7 +45,7 @@ h1, h2 {
     float: left;
     font-size: 150%;
     background-color: red;
-    border-left: solid 3px white;
+    border-right: solid 3px white;
 }
 
 #menu a {
