@@ -312,6 +312,22 @@ h1, h2 {
     object-fit: fill;
 }
 
+#hiring-head {
+    text-align: center;
+    padding: 1% 0 4%;
+    width: 100%;
+    color: black;
+}
+
+#hiring-head h2{
+    font-size: 300%;
+    font-family: "Archivo Black", sans-serif;
+}
+
+#hiring-head p {
+    font-size: 200%;
+}
+
 #hiring {
     min-height: 40vh;
     display: block;
