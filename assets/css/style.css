@@ -392,3 +392,59 @@ footer {
 footer p {
     background-color: rgb(118, 23, 23);
 }
+
+@media screen and (max-width: 810px) {
+    header {
+        width: 100%;
+        column-count: 1;
+    }
+
+    #logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu li {
+        width: 100%;
+        column-count: 1;
+    }
+
+    #menu a {
+        width: 100%;
+    }
+
+    #cover-text h2 {
+        font-size: 150%;
+        left: 5%;
+    }
+
+    #left-reason {
+        height: auto;
+        width: 100%;
+        clear: both;
+    }
+
+    .left-reason-content {
+        clear: both;
+    }
+
+    #right-reason {
+        height: auto;
+        float: left;
+        width: 100%;
+        clear: both
+    }
+
+    .right-reason-content {
+        float: left;
+    }
+
+    .right-reason-img {
+        float: left;
+    }
+
+    .right-reason-content h3 {
+        text-align: left;
+    }
+    
+}
