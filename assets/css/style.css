@@ -98,34 +98,43 @@ h1, h2 {
 
 #left-reason {
     width: 50%;
-    height: 600px;
+    height: 900px;
     float: left;
 }
 
 #right-reason {
-    width: 46%;
+    width: 50%;
     float: right;
+    height: 900px;
     text-align: right;
 }
 
 .left-reason-content {
     float: left;
     width: 100%;
-    height: 200px;
-    padding: 2%;
+    height: 300px;
+    padding: 2% 2% 0;
 }
 
 .right-reason-content {
     float: right;
     width: 100%;
-    height: 200px;
-    padding: 2%;
+    height: 300px;
+    padding: 2% 2% 0;
 }
 
 .left-reason-img {
     width: 33%;
-    height: 200px;
+    height: 300px;
     float: left;
+    overflow: hidden;
+}
+
+.right-reason-img {
+    width: 33%;
+    height: 300px;
+    float: right;
+    overflow: hidden;
 }
 
 .left-reason-content h3 {
@@ -142,12 +151,6 @@ h1, h2 {
     width: 63%;
     height: 150px;
     overflow: hidden;
-}
-
-.right-reason-img {
-    width: 33%;
-    height: 200px;
-    float: right;
 }
 
 .right-reason-content h3 {
