@@ -14,12 +14,7 @@
 body {
     font-family: "Hind", sans-serif;
     font-weight: 400;
-    color: #3a3a3a;
-}
-
-header {
-    width: 100%;
-    background-color: rgb(118, 23, 23);
+    color: white;
 }
 
 h1, h2 {
