@@ -454,11 +454,15 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 footer p {
     background-color: rgb(118, 23, 23);
+}
+
+footer a {
+    color: white;
 }
 
 @media screen and (max-width: 1080px) {
