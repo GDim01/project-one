@@ -314,7 +314,7 @@ h1, h2 {
 
 #hiring-head {
     text-align: center;
-    padding: 1% 0 4%;
+    padding: 1% 0 2%;
     width: 100%;
     color: black;
 }
@@ -329,7 +329,7 @@ h1, h2 {
 }
 
 #hiring {
-    min-height: 40vh;
+    min-height: 30vh;
     display: block;
     column-count: 3;
 }
@@ -344,7 +344,7 @@ h1, h2 {
     color: black;
     font-family: "Archivo Black", sans-serif;
     text-align: center;
-    font-size: 150%;
+    font-size: 180%;
     display: block;
     height: 8%;
     width: 100%;
@@ -355,7 +355,7 @@ h1, h2 {
     color: black;
     font-family: "Hind", sans-serif;
     text-align: justify;
-    font-size: 120%;
+    font-size: 150%;
     height: 92%;
     width: 100%;
     display: block;
