@@ -706,4 +706,26 @@ footer p {
         padding-bottom: 2%;
     }
 
+    #contact li {
+        margin-top: 3%;
+    }
+
+    #contact-form {
+        padding: 0 2%;
+        font-size: 60%;
+        background-size: 200%;
+    }
+
+    #contact-form label {
+        width: 30%;
+    }
+
+    #contact-form input {
+        width: 70%;
+    }
+
+    #message {
+        width: 70%;
+    }
+
 }
