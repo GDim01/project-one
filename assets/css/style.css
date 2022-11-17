@@ -644,4 +644,47 @@ footer p {
         height: 25%;
     }
 
+    #product-examples {
+        padding: 1%;
+        overflow: hidden;
+        height: auto;
+    }
+
+    #product-examples div {
+        padding: 1%;
+    }
+
+    .product1, .product2 {
+        overflow: hidden;
+        height: 40%;
+        width: 98%;
+        
+    }
+
+    .product1 img, .product2 img {
+        width: 100%;
+        clear: both;
+    }
+
+    .product1 h2, .product2 h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .product1 p, .product2 p {
+        width: 98%;
+        padding: 1%;
+        font-size: 100%;
+    }
+
+    
+
+    #hiring-head h2 {
+        font-size: 100%;
+    }
+
+    #hiring-head p {
+        font-size: 90%;
+    }
+
 }
