@@ -608,7 +608,7 @@ footer p {
 
 }
 
-@media screen and (max-width: 890px) and (orientation: landscape) {
+@media screen and (max-width: 930px) and (orientation: landscape) {
 
     #why-us {
         height: 100%;
