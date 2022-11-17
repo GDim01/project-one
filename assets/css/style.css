@@ -652,6 +652,22 @@ footer p {
         font-size: 90%;
     }
 
+    #contact-form {
+        height: 100vh;
+    }
+
+    #contact-form label {
+        height: 5vh;
+    }
+
+    #contact-form input {
+        height: 5vh;
+    }
+
+    #contact-form #message {
+        height: 40vh;
+    }
+
 }
 
 @media screen and (max-width: 420px) and (orientation: portrait) {
@@ -760,6 +776,7 @@ footer p {
         padding: 0 2%;
         font-size: 60%;
         background-size: 200%;
+        height: 40vh;
     }
 
     #contact-form label {
@@ -772,6 +789,7 @@ footer p {
 
     #message {
         width: 70%;
+        height: 17vh;
     }
 
 }
