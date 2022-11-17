@@ -109,6 +109,7 @@ The live link can be found here - https://gdim01.github.io/project-one/
 - Many reminders / new attributes not in the Code Institute course (e.g. flex boxes) were found on (https://www.w3schools.com/)
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - Form dump used was from Code Institute's form dump address used during the "Love Running" project (https://formdump.codeinstitute.net/)
+- Original JPEGs converted to WEBPs using (https://cloudconvert.com/jpg-to-webp)
 
 ### Media
 
