@@ -402,9 +402,26 @@ h1, h2 {
 
 #contact-form {
     color: black;
+    padding: 10vh 10% 0;
+    background: url(../images/contact-form-bkg.jpg) no-repeat center center;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    columns: 2;
 }
 
+#contact-form label {
+    height: 2.5vh;
+    font-size: 150%;
+    margin: 0 1vh;
+    clear: both;
+}
 
+#contact-form input {
+    height: 2.5vh;
+    clear: both;
+}
 
 
 footer {
