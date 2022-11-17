@@ -644,6 +644,14 @@ footer p {
         font-size: 80%;
     }
 
+    #hiring h3 {
+        font-size: 100%;
+    }
+
+    #hiring p {
+        font-size: 90%;
+    }
+
 }
 
 @media screen and (max-width: 420px) and (orientation: portrait) {
