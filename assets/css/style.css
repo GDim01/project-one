@@ -402,25 +402,39 @@ h1, h2 {
 
 #contact-form {
     color: black;
-    padding: 10vh 10% 0;
+    padding: 10vh 25% 0;
     background: url(../images/contact-form-bkg.jpg) no-repeat center center;
     background-size: cover;
-    height: 40vh;
-    display: flex;
-    flex-direction: row;
-    columns: 2;
+    height: 50vh;
+}
+
+#contact-form .contact-form-input {
+    width: 100%;
+    margin: 1vh 0;
 }
 
 #contact-form label {
     height: 2.5vh;
     font-size: 150%;
-    margin: 0 1vh;
-    clear: both;
+    float: left;
+    width: 25%;
 }
 
 #contact-form input {
     height: 2.5vh;
     clear: both;
+    width: 75%;
+}
+
+#message {
+    width: 75%;
+    height: 10vh;
+    font-size: 150%;
+    font-family: "Hind", sans-serif;
+}
+
+#submit {
+    float: right;
 }
 
 
