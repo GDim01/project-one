@@ -87,7 +87,7 @@ h2 {
 #hero-img {
     height: 670px;
     width: 100%;
-    background: url(../images/pizza-oven.jpg) no-repeat center center;
+    background: url(../images/pizza-oven.webp) no-repeat center center;
     object-fit: fill;
     background-size: cover;
 }
@@ -411,7 +411,7 @@ h2 {
 #contact-form {
     color: black;
     padding: 3% 25% 0;
-    background: url(../images/contact-form-bkg.jpg) no-repeat center center;
+    background: url(../images/contact-form-bkg.webp) no-repeat center center;
     background-size: cover;
     height: 50vh;
 }
@@ -465,7 +465,7 @@ footer a {
     color: white;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1366px) {
     header {
         width: 100%;
         height: 50%;

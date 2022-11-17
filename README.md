@@ -38,7 +38,7 @@ In this section, you should go over the different parts of your project, and des
   - The footer section includes relevant copyright information, and a link to the company's LinkedIn for additional means of contact.
   - The footer is valuable to the user as it lets them know this is a corporate entity.
 
-![Footer](image)
+![Footer](assets/images/footer-img.png)
 
 - __Products__
 
@@ -68,21 +68,28 @@ In this section, you should go over the different parts of your project, and des
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testing has been done to ensure that the navigation bar will always point to the correct address, leaving no chance of an error 404. Furthermore, the form in contact.html will only proceed once the Name, Surname, Email, Subject, and Message field have been 
+filled in.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The project has been tested to work on desktop, laptop, both tablet orientations, and both mobile orientations. The website will 
+adjust the content depending on the screen real estate available.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+An interesting challenge which seemed harder than it should have was making the footer behave in the way I wanted it to. I was unable to get the footer at the bottom of a scrollable page, while at the very bottom of a page that did not use the entire viewport height simultaneously. As I had not encountered flex boxes up until this point, this led me to search online for a solution. The solution was provided to me on stackoverflow, and then further allowed me to see the use of flex boxes. I then further incorporated flex boxes into my code in other areas, especially when dealing with resposive programming.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+In future projects I will definitely rely less on the "vh" size unit, as while it did what I needed it to on the desktop side of things, it made the responsive design element much more difficult. My reasoning for using "vh" initially was that since most monitors have the same aspect ratio, this should get my project to look the same across the 3 main current resolutions (1920x1080, 2160x1440, and 3840x2160 which I am currently on). Unfortunately for myself, I did not account for the mobile ability to rotate the display, nor for the fact that when using zoom on the desktop, the elements themselves will not zoom out if based on the viewport height as opposed to a set number, or % of one.
 
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing files through the official [W3C validator](https://validator.w3.org/nu/)
+  - ![Index](assets/images/index-html-validation.png)
+  - ![Product](assets/images/products-html-validation.png)
+  - ![Opportunities](assets/images/opportunities-html-validation.png)
+  - ![Contact](assets/images/contact-html-validation.png)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+  - ![Style](assets/images/style-css-validation.png)
 
 ### Unfixed Bugs
 
