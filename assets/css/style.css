@@ -637,11 +637,11 @@ footer p {
     }
 
     .product1 h2, .product2 h2 {
-        font-size: 100%;
+        font-size: 90%;
     }
 
     .product1 p, .product2 p {
-        font-size: 100%;
+        font-size: 80%;
     }
 
 }
