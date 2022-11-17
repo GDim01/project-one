@@ -492,6 +492,7 @@ footer p {
     #cover-text h2 {
         font-size: 100%;
         left: 5%;
+        top: 20%;
     }
 
     #left-reason {
@@ -522,5 +523,36 @@ footer p {
     .right-reason-content h3 {
         text-align: left;
     }
+
+    .product1 {
+        width: 100%;
+    }
+
+    .product2 {
+        float: left;
+        width: 100%;
+    }
     
+    .product2 img {
+        float: left;
+    }
+
+    .product1 h2 {
+        font-size: 150%;
+    }
+
+    .product2 h2 {
+        font-size: 150%;
+        text-align: left;
+    }
+
+    .product1 p {
+        font-size: 140%;
+    }
+
+    .product2 p {
+        font-size: 140%;
+        text-align: justify;
+    }
+
 }
