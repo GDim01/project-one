@@ -4,7 +4,7 @@
 Breifne Bakery is a site for potential customers of the fictional company Breifne Bakery. It allows the visitor to gleam an idea into what Breifne Bakery is, what they provide, and if there is any opportunity for employment. 
 It will be useful to the visitor as while the name alone might not fully signify what the company is focused on, after visiting the site they will have a very clear understanding that this is a pizza manufacturing business.
 
-![Responsive Mockup](image)
+![Responsive Mockup](assets/images/breifne-bakery-resposive-mockup.png)
 
 ## Features 
 
@@ -17,21 +17,21 @@ In this section, you should go over the different parts of your project, and des
   - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, Product page, Opportunities page and Contact page, and is identical in each page to allow for easy navigation except for the current active page. This is to clearly signify which page the user is currently on.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Navigation Bar](image)
+![Navigation Bar](assets/images/navigation-bar.png)
 
 - __The landing page image__
 
   - The landing includes a photograph with text overlay to allow the user to see exactly what the company is about
   - This section introduces the user to Breifne Bakery with an example pizza in an oven to grab their attention and immediately signify what the company is about
 
-![Landing Page](image)
+![Landing Page](assets/images/landing-page-img.png)
 
 - __Why Us Section__
 
   - The Why Us section lists strengths and attributes of Breifne Bakery in a concise and easy to understand manner, including images that immediately draw attention to the point stated.
   - This user will see what the company's focuses are, and immediately let them know what the company values.
 
-![Why Us](image)
+![Why Us](assets/images/why-us-img.png)
 
 - __The Footer__ 
 
@@ -45,21 +45,21 @@ In this section, you should go over the different parts of your project, and des
   - The products page will provide the user with supporting images to see what the manufactured products look like, along with a brief description. 
   - This section is valuable to the user as they will be able to easily identify the types of products that are produced by the company, and what it specialises in.
 
-![Products](image)
+![Products](assets/images/products-img.png)
 
 - __The Opportunities Page__
 
   - This page will allow the user to see what kind of job vacancies are available in the company.
   - This is useful the the user as they may see if there are any specific shortages in the workforce, and may even spark the idea for them to apply for employment at the company
 
-![Opportunities](image)
+![Opportunities](assets/images/opportunities-img.png)
 
 - __The Contact Page__
 
   - This page will allow the user to see what available methods there are to contact the company.
   - It also lists the company's address, as well as an embedded Google map to further ease in locating of the company.
 
-![Contact](image)
+![Contact](assets/images/contact-img.png)
 
 ### Features Left to Implement
 
@@ -87,8 +87,6 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Unfixed Bugs
 
 - A minor unfixed bug is when viewing the index page on a landscape mobile device, the final image is slightly shorter than the rest. This may be due to the use of the "vh" sizing unit which caused diffiiculty when implementing responsive design. All of the other cases where such an issue ocurred were resolved, however despite my testing I could not get the image to respond to any of my "height" selectors and values in the correct manner.
-
--
 
 ## Deployment
 
