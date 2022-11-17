@@ -110,6 +110,7 @@ The live link can be found here - https://gdim01.github.io/project-one/
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - Form dump used was from Code Institute's form dump address used during the "Love Running" project (https://formdump.codeinstitute.net/)
 - Original JPEGs converted to WEBPs using (https://cloudconvert.com/jpg-to-webp)
+- LinkedIn icon provided by (https://fontawesome.com/icons/linkedin?s=&f=brands)
 
 ### Media
 
