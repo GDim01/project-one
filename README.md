@@ -91,9 +91,27 @@ In future projects I will definitely rely less on the "vh" size unit, as while i
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
   - ![Style](assets/images/style-css-validation.png)
 
+### Lighthouse Testing
+
+- Desktop
+  - All desktop testing scored above 90% in all categories through the lighthouse pagespeedinsights page (https://pagespeed.web.dev/)
+  - ![Index](assets/images/index-lighthouse-desktop.png)
+  - ![Product](assets/images/products-lighthouse-desktop.png)
+  - ![Opportunities](assets/images/opportunities-lighthouse-desktop.png) 
+  - ![Contact](assets/images/contact-lighthouse-desktop.png)
+
+- Mobile
+  - All mobile testing scored above 90% except for the performance category via lighthouse
+  - ![Index](assets/images/index-lighthouse-mobile.png)
+  - ![Product](assets/images/products-lighthouse-mobile.png)
+  - ![Opportunities](assets/images/opportunities-lighthouse-mobile.png)
+  - ![Contact](assets/images/contact-lighthouse-mobile.png)
+
 ### Unfixed Bugs
 
 - A minor unfixed bug is when viewing the index page on a landscape mobile device, the final image is slightly shorter than the rest. This may be due to the use of the "vh" sizing unit which caused diffiiculty when implementing responsive design. All of the other cases where such an issue ocurred were resolved, however despite my testing I could not get the image to respond to any of my "height" selectors and values in the correct manner.
+
+- The deployed page on Github Pages does not display the LinkedIn symbol, therefore hiding the link in the footer. This was not an issue while in gitpod, and despite attempting to move the script which imports the fontawesome image around and ensuring it is the right one, the issue did not get resolved
 
 ## Deployment
 
