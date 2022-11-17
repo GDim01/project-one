@@ -524,6 +524,10 @@ footer p {
         text-align: left;
     }
 
+    .right-reason-content p {
+        float: left;
+    }
+
     .product1 {
         width: 100%;
     }
