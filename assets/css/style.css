@@ -584,4 +584,23 @@ footer p {
         font-size: 100%;
     }
 
+    #contact {
+        margin: 2% 0;
+    }
+
+    #contact h2 {
+        font-size: 150%;
+        overflow: hidden;
+        height: 20%;
+    }
+
+    #contact li {
+        font-size: 120%;
+    }
+
+    #contact-form {
+        padding: 5% 10%;
+        background-size: 130%;
+    }
+
 }
