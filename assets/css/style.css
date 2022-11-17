@@ -443,6 +443,9 @@ h1, h2 {
     float: right;
 }
 
+#map {
+    width: 100%;
+}
 
 footer {
     text-align: center;
