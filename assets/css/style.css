@@ -193,6 +193,7 @@ h2 {
 }
 
 /* Beginning of product styling */
+
 #product-header {
     height: 40vh;
     display: flex;
@@ -211,6 +212,8 @@ h2 {
     height: 100%;
     object-fit: fill;
 }
+
+/* Beginning of product examples styling */
 
 #product-examples {
     height: 90vh;
@@ -291,8 +294,6 @@ h2 {
     float: right;
 }
 
-
-
 /* Beginning of Opportunities styling */
 
 #hiring-pic {
@@ -314,6 +315,8 @@ h2 {
     object-fit: fill;
 }
 
+/* Beginning of Hiring Heading Text Styling */
+
 #hiring-head {
     text-align: center;
     padding: 1% 0 2%;
@@ -329,6 +332,8 @@ h2 {
 #hiring-head p {
     font-size: 200%;
 }
+
+/* Beginning of Job Opportunity Styling */
 
 #hiring {
     min-height: 30vh;
@@ -366,8 +371,8 @@ h2 {
     float: left;
 }
 
+/* Beginning of Contact Styling */
 
-/* Beginning of contact styling */
 #contact-pic {
     width: 100%;
     height: 40vh;
@@ -379,6 +384,8 @@ h2 {
     height: 100%;
     object-fit: cover;
 }
+
+/* Beginning of Contact Information Styling */
 
 #contact {
     color: black;
@@ -407,6 +414,8 @@ h2 {
     color: black;
     font-size: 200%;
 }
+
+/* Beginning of Contact Form Styling */
 
 #contact-form {
     color: black;
@@ -445,9 +454,13 @@ h2 {
     float: right;
 }
 
+/* Map location using Google Maps */
+
 #map {
     width: 100%;
 }
+
+/* Beginning of Footer Styling */
 
 footer {
     text-align: center;
@@ -465,7 +478,12 @@ footer a {
     color: white;
 }
 
+/* Styling for laptop & tablet - sized screens */
+
 @media screen and (max-width: 1366px) {
+
+    /* Index Page Styling */
+
     header {
         width: 100%;
         height: 50%;
@@ -482,8 +500,7 @@ footer a {
         padding: 30px 0;
     }
 
-    #logo,
-    #menu {
+    #logo, #menu {
         line-height: 50%;
     }
 
@@ -543,6 +560,8 @@ footer a {
         float: left;
     }
 
+    /* Product Page Styling */
+
     .product1 {
         width: 100%;
     }
@@ -574,6 +593,8 @@ footer a {
         text-align: justify;
     }
 
+    /* Opportunities Page Styling */
+
     #hiring {
         width: 100%;
         clear: both;
@@ -590,6 +611,8 @@ footer a {
     #hiring p {
         font-size: 100%;
     }
+
+    /* Contact Page Styling */
 
     #contact {
         margin: 2% 0;
@@ -612,7 +635,11 @@ footer a {
 
 }
 
+/* Styling for landscape - orientated mobile devices */
+
 @media screen and (max-width: 930px) and (orientation: landscape) {
+
+    /* Index Page Styling */
 
     #why-us {
         height: 100%;
@@ -640,6 +667,8 @@ footer a {
         font-size: 60%;
     }
 
+    /* Product Page Styling */
+
     .product1 h2, .product2 h2 {
         font-size: 90%;
     }
@@ -648,6 +677,8 @@ footer a {
         font-size: 80%;
     }
 
+    /* Opportunities Page Styling */
+
     #hiring h3 {
         font-size: 100%;
     }
@@ -655,6 +686,8 @@ footer a {
     #hiring p {
         font-size: 90%;
     }
+
+    /* Contact Page Styling */
 
     #contact-form {
         height: 100vh;
@@ -674,7 +707,11 @@ footer a {
 
 }
 
+/* Styling for portrait - orientated mobile devices */
+
 @media screen and (max-width: 420px) and (orientation: portrait) {
+
+    /* Index Page Styling */
 
     .left-reason-content, .right-reason-content {
         padding: 1%;
@@ -704,6 +741,8 @@ footer a {
         font-size: 90%;
         max-height: 100%;
     }
+
+    /* Product Page Styling */
 
     #product-header {
         flex-direction: column;
@@ -743,6 +782,8 @@ footer a {
         font-size: 100%;
     }
 
+    /* Opportunities Page Styling */
+
     #hiring-pic {
         flex-direction: column;
     }
@@ -771,6 +812,8 @@ footer a {
         font: 90%;
         padding-bottom: 2%;
     }
+
+    /* Contact Page Styling */
 
     #contact li {
         margin-top: 3%;
